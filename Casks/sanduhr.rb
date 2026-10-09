@@ -1,6 +1,6 @@
 cask "sanduhr" do
-  version "2.0.4"
-  sha256 "82506e0b0ce3b05b41538ce9740d9e88ecbc459bf78553df43b2cf6db3a80522"
+  version "2.12.0"
+  sha256 "3312251a40cac6dc7ea9c850f5309f7d32ad62abb2cb0a8a78f5c5195cb204bd"
 
   url "https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/releases/download/v#{version}-mac/Sanduhr-#{version}.dmg",
       verified: "github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/"
@@ -15,7 +15,7 @@ cask "sanduhr" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Sanduhr.app"
 
@@ -23,6 +23,7 @@ cask "sanduhr" do
     "~/Library/Application Support/Sanduhr",
     "~/Library/Caches/com.626labs.sanduhr",
     "~/Library/Caches/Sparkle_com.626labs.sanduhr",
+    "~/Library/Preferences/com.626labs.sanduhr.desk.plist",
     "~/Library/Preferences/com.626labs.sanduhr.plist",
   ]
 end
