@@ -2,8 +2,7 @@ cask "sanduhr" do
   version "2.12.0"
   sha256 "3312251a40cac6dc7ea9c850f5309f7d32ad62abb2cb0a8a78f5c5195cb204bd"
 
-  url "https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/releases/download/v#{version}-mac/Sanduhr-#{version}.dmg",
-      verified: "github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/"
+  url "https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/releases/download/v#{version}-mac/Sanduhr-#{version}.dmg"
   name "Sanduhr für Claude"
   desc "Claude.ai subscription usage widget with burn-rate alerts"
   homepage "https://estevanhernandez-stack-ed.github.io/Sanduhr_f-r_Claude/"
