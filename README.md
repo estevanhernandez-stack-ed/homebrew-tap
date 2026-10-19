@@ -25,7 +25,7 @@ brew upgrade --cask sanduhr
 
 | Name | Description | Homepage |
 |------|-------------|----------|
-| **sanduhr** | Claude.ai subscription usage widget with burn-rate alerts | [landing page](https://estevanhernandez-stack-ed.github.io/Sanduhr_f-r_Claude/) · [source](https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude) |
+| **sanduhr** | Claude.ai usage meters on the desktop, with Claude Code mods and config packs | [626labs.dev/sanduhr](https://626labs.dev/sanduhr/) · [source](https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude) |
 
 ## Why a personal tap?
 
