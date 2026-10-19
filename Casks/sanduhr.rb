@@ -1,11 +1,11 @@
 cask "sanduhr" do
-  version "2.27.0"
-  sha256 "f08a8979be4401f4d0d9540e9ca0ead6172fdee165885778ecc453b37dcdfb00"
+  version "2.28.0"
+  sha256 "b2618c3fde8e962877af6013bf4761f59f6990bc1d69f83ec7184762262884f4"
 
   url "https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/releases/download/v#{version}-mac/Sanduhr-#{version}.dmg"
   name "Sanduhr für Claude"
-  desc "Claude.ai usage meters on the desktop, with Claude Code mods and config packs"
-  homepage "https://626labs.dev/sanduhr/"
+  desc "Claude.ai subscription usage widget with burn-rate alerts"
+  homepage "https://estevanhernandez-stack-ed.github.io/Sanduhr_f-r_Claude/"
 
   livecheck do
     url :url
